@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gandi Gir</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: url('https://source.unsplash.com/1600x900/?jungle,safari') no-repeat center center/cover;
+            color: rgb(206, 22, 22);
+            text-align: center;
+            padding: 50px;
+            font-size: 30px;
+        }
+        nav {
+            background: #2e7d32;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: rgb(12, 12, 12);
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 20px;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        .about, .tours, .contact {
+            background: rgb(208, 15, 144);
+            margin: 20px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px gray;
+        }
+        .tour-box {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            background: #81c784;
+            color: rgb(28, 31, 205);
+            border-radius: 10px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+        .contact input, .contact textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #2e7d32;
+            border-radius: 5px;
+        }
+        .contact button {
+            background: #2e7d32;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Gandi Gir</h1>
+    <p>Explore the wild like never before!</p>
+</header>
+
+<nav>
+    <a href="#about">About Us</a>
+    <a href="#tours">Safari Tours</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="about">
+    <h2>About Jungle Safari</h2>
+    <p>Experience the thrill of wildlife and nature on our exclusive jungle safari tours. See exotic animals, breathtaking landscapes, and enjoy a once-in-a-lifetime adventure.</p>
+</section>
+
+<section id="tours" class="tours">
+    <h2>Our Safari Tours</h2>
+    <div class="tour-box">
+        <h3>Day Safari</h3>
+        <p>Explore the jungle in the daylight and witness nature’s beauty.</p>
+    </div>
+    <div class="tour-box">
+        <h3>Night Safari</h3>
+        <p>Experience the jungle at night and see nocturnal wildlife.</p>
+    </div>
+    <div class="tour-box">
+        <h3>Camping Safari</h3>
+        <p>Spend a night in the wild and enjoy a thrilling adventure.</p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+</body>
+</html>
